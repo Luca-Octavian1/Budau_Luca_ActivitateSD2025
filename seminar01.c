@@ -49,7 +49,7 @@ int main() {
 	struct Masina masina;
 	masina = initializare(1, 2004, "Dybala", 2000, 'P');//"p"
 	afisare(masina);
-	modifica_sofer(&masina, "Alexandru");
+	modifica_sofer(&masina, "Yildiz");
 	afisare(masina);
 	dezalocare(&masina);
 	afisare(masina);
