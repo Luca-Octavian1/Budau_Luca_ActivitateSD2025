@@ -43,7 +43,7 @@ void adaugaMasinaInVector(Masina** masini, int * nrMasini, Masina masinaNoua) {
 Masina citireMasinaFisier(FILE* file) {
 	Masina m;
 	char buffer[100];
-	char sep[3] = ", \n";
+	char sep[3] = ",\n";
 
 	fgets(buffer, 100, file); //punem in buffer toata linia
 

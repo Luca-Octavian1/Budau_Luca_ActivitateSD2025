@@ -18,5 +18,62 @@
     <ClCompile Include="seminar01.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="seminar2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Seminar3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_pentru_test.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar9.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar10.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="seminar11.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_Heap.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lucru_sablon8.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

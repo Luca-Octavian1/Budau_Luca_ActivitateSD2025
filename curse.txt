@@ -1,0 +1,5 @@
+105,Danemarca,17.06.2025,18:00,planificata
+102,Italia,10.06.2024,15:01,efectuata
+101,Franta,21.04.2025,05:22,planificata
+106,Argentina,17.10.2025,18:44,planificata
+110,Italia,15.01.2024,13:20,efectuata

@@ -63,12 +63,12 @@ void afisareListaMasini(N* nod) {
 	}
 }
 
-void adaugaMasinaInLista( N** lista ,Masina masinaNoua) {
+void adaugaMasinaInLista(N** lista, Masina masinaNoua) {
 	N* nodNou = (N*)malloc(sizeof(N));
 	nodNou->info = masinaNoua;
 	nodNou->next = NULL;
 
-	if ((*lista)==NULL)
+	if ((*lista) == NULL)
 	{
 		(*lista) = nodNou;
 	}
@@ -122,7 +122,7 @@ float calculeazaPretMediu(N* lista) {
 	}
 	if (contor == 0)
 		return 0;
-	return suma/contor;
+	return suma / contor;
 }
 
 void stergeMasiniDinSeria(/*lista masini*/ char serieCautata) {
@@ -135,7 +135,7 @@ float calculeazaPretulMasinilorUnuiSofer(N* lista, const char* numeSofer) {
 	while (lista) {
 		if (strcmp(lista->info.numeSofer, numeSofer) == 0)
 		{
-			sum+= lista->info.pret;
+			sum += lista->info.pret;
 			lista = lista->next;
 		}
 	}
@@ -163,8 +163,8 @@ int getNrUsiMasinaScumpa(N* lista)
 
 int main() {
 
-	N* nod=NULL;
-	nod=citireListaMasiniDinFisier("masini.txt");
+	N* nod = NULL;
+	nod = citireListaMasiniDinFisier("masini.txt");
 	afisareListaMasini(nod);
 	float medie = calculeazaPretMediu(nod);
 	printf("Media este: %.2f", medie);
